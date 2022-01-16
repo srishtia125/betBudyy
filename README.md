@@ -19,8 +19,6 @@ curl command for generating reports
 curl -X  POST "http://localhost:8080/reports"
 ```
 
-Reports are generated in report folder under files
-path to reports:
-files\reports in classpath of the project
+Reports are generated in files folder in classpath of the project
 
 
