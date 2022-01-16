@@ -19,7 +19,7 @@ public class CSVWriteService {
         public void csvWriterAll(List<?> sessionWonWageredDtoList, String fileName)  {
             Writer writer = null;
             try {
-                writer = new FileWriter("files/reports/"+fileName);
+                writer = new FileWriter("files/"+fileName);
                StatefulBeanToCsv beanToCsv = new StatefulBeanToCsvBuilder(writer).build();
                 beanToCsv.write(sessionWonWageredDtoList);
                 writer.close();
