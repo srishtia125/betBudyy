@@ -7,7 +7,7 @@ Clone the source code
 
 git clone https://github.com/srishtia125/betBudyy.git
 
-Go to the checked out source code and start the server locally (Server will start on port 8080 , make sure no other is using the same port)
+Go to the checked out source code(where pom file exisits) and start the server locally (Server will start on port 8080 , make sure no other is using the same port)
 
 ```
 mvn spring-boot:run
